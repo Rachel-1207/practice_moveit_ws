@@ -1,0 +1,4 @@
+Invoking command in '/home/rs/ws/prac_moveit_ws/build/moveit_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/moveit_practice -- -j20 -l20
+Invoked command in '/home/rs/ws/prac_moveit_ws/build/moveit_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/moveit_practice -- -j20 -l20
+Invoking command in '/home/rs/ws/prac_moveit_ws/build/moveit_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/moveit_practice
+Invoked command in '/home/rs/ws/prac_moveit_ws/build/moveit_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/moveit_practice

@@ -1,0 +1,580 @@
+[0.040s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.040s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x766ff5de66e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x766ff5fb00a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x766ff5fb00a0>>)
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.093s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rs/ws/prac_moveit_ws'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ros'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['cmake', 'python']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'cmake'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'python'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['python_setup_py']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'python_setup_py'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ros'
+[0.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench/dynamixel_workbench' with type 'ros.ament_cmake' and name 'dynamixel_workbench'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ros'
+[0.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench/dynamixel_workbench_toolbox' with type 'ros.ament_cmake' and name 'dynamixel_workbench_toolbox'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'ros'
+[0.101s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench-msgs/dynamixel_workbench_msgs' with type 'ros.ament_cmake' and name 'dynamixel_workbench_msgs'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/dynamixel_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/dynamixel_hardware) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/dynamixel_hardware) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/dynamixel_hardware) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/dynamixel_hardware) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/dynamixel_hardware) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/dynamixel_hardware) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/dynamixel_hardware) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/dynamixel_hardware) by extension 'ros'
+[0.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_hardware/dynamixel_hardware' with type 'ros.ament_cmake' and name 'dynamixel_hardware'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/open_manipulator_x_description) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/open_manipulator_x_description) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/open_manipulator_x_description) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/open_manipulator_x_description) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/open_manipulator_x_description) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/open_manipulator_x_description) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/open_manipulator_x_description) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/open_manipulator_x_description) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/open_manipulator_x_description) by extension 'ros'
+[0.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_hardware/open_manipulator_x_description' with type 'ros.ament_cmake' and name 'open_manipulator_x_description'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/pantilt_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/pantilt_bot_description) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/pantilt_bot_description) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/pantilt_bot_description) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/pantilt_bot_description) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/pantilt_bot_description) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/pantilt_bot_description) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/pantilt_bot_description) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware/pantilt_bot_description) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_hardware/pantilt_bot_description' with type 'ros.ament_cmake' and name 'pantilt_bot_description'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_practice) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_practice) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_practice) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_practice) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_practice) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_practice) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_practice) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_practice) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_practice) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_practice' with type 'ros.ament_cmake' and name 'moveit_practice'
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_target' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.112s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs', 'merge_install': False, 'path': '/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.112s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox', 'merge_install': False, 'path': '/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox', 'symlink_install': False, 'test_result_base': None}
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'moveit_practice' build argument 'cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'moveit_practice' build argument 'cmake_target' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'moveit_practice' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'moveit_practice' build argument 'cmake_clean_cache' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'moveit_practice' build argument 'cmake_clean_first' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'moveit_practice' build argument 'cmake_force_configure' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'moveit_practice' build argument 'ament_cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'moveit_practice' build argument 'catkin_cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'moveit_practice' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.112s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_practice' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rs/ws/prac_moveit_ws/build/moveit_practice', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rs/ws/prac_moveit_ws/install/moveit_practice', 'merge_install': False, 'path': '/home/rs/ws/prac_moveit_ws/src/moveit_practice', 'symlink_install': False, 'test_result_base': None}
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_target' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.113s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rs/ws/prac_moveit_ws/build/dynamixel_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware', 'merge_install': False, 'path': '/home/rs/ws/prac_moveit_ws/src/dynamixel_hardware/dynamixel_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_target' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_clean_cache' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_clean_first' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_force_configure' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'ament_cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'catkin_cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.113s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench', 'merge_install': False, 'path': '/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench/dynamixel_workbench', 'symlink_install': False, 'test_result_base': None}
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_target' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.113s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_x_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description', 'merge_install': False, 'path': '/home/rs/ws/prac_moveit_ws/src/dynamixel_hardware/open_manipulator_x_description', 'symlink_install': False, 'test_result_base': None}
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'pantilt_bot_description' build argument 'cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'pantilt_bot_description' build argument 'cmake_target' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'pantilt_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'pantilt_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'pantilt_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'pantilt_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'pantilt_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'pantilt_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.113s] Level 5:colcon.colcon_core.verb:set package 'pantilt_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.113s] DEBUG:colcon.colcon_core.verb:Building package 'pantilt_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rs/ws/prac_moveit_ws/build/pantilt_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description', 'merge_install': False, 'path': '/home/rs/ws/prac_moveit_ws/src/dynamixel_hardware/pantilt_bot_description', 'symlink_install': False, 'test_result_base': None}
+[0.113s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.114s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox' with build type 'ament_cmake'
+[0.114s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox'
+[0.115s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.115s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.118s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs' with build type 'ament_cmake'
+[0.118s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs'
+[0.118s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.118s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.120s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rs/ws/prac_moveit_ws/src/moveit_practice' with build type 'ament_cmake'
+[0.120s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rs/ws/prac_moveit_ws/src/moveit_practice'
+[0.120s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox -- -j20 -l20
+[0.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs -- -j20 -l20
+[0.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/moveit_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/moveit_practice -- -j20 -l20
+[0.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox -- -j20 -l20
+[0.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox
+[0.175s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_toolbox)
+[0.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox
+[0.179s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox' for CMake module files
+[0.179s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox' for CMake config files
+[0.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'cmake_prefix_path')
+[0.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.ps1'
+[0.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.dsv'
+[0.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.sh'
+[0.187s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib'
+[0.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'ld_library_path_lib')
+[0.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.ps1'
+[0.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.dsv'
+[0.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.sh'
+[0.188s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/bin'
+[0.188s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib/pkgconfig/dynamixel_workbench_toolbox.pc'
+[0.189s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib/python3.10/site-packages'
+[0.189s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/bin'
+[0.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.ps1'
+[0.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv'
+[0.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.sh'
+[0.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.bash'
+[0.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.zsh'
+[0.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/colcon-core/packages/dynamixel_workbench_toolbox)
+[0.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_toolbox)
+[0.191s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox' for CMake module files
+[0.191s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox' for CMake config files
+[0.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'cmake_prefix_path')
+[0.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.ps1'
+[0.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.dsv'
+[0.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.sh'
+[0.192s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib'
+[0.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'ld_library_path_lib')
+[0.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.ps1'
+[0.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.dsv'
+[0.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.sh'
+[0.192s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/bin'
+[0.192s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib/pkgconfig/dynamixel_workbench_toolbox.pc'
+[0.192s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib/python3.10/site-packages'
+[0.193s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/bin'
+[0.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.ps1'
+[0.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv'
+[0.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.sh'
+[0.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.bash'
+[0.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.zsh'
+[0.194s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/share/colcon-core/packages/dynamixel_workbench_toolbox)
+[0.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rs/ws/prac_moveit_ws/src/dynamixel_hardware/dynamixel_hardware' with build type 'ament_cmake'
+[0.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rs/ws/prac_moveit_ws/src/dynamixel_hardware/dynamixel_hardware'
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.196s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench/dynamixel_workbench' with build type 'ament_cmake'
+[0.196s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench/dynamixel_workbench'
+[0.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.196s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/dynamixel_hardware -- -j20 -l20
+[0.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench -- -j20 -l20
+[0.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench' returned '0': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench -- -j20 -l20
+[0.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench
+[0.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench)
+[0.226s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench' for CMake module files
+[0.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench' returned '0': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench
+[0.227s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench' for CMake config files
+[0.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench', 'cmake_prefix_path')
+[0.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.ps1'
+[0.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.dsv'
+[0.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.sh'
+[0.227s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/bin'
+[0.228s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/lib/pkgconfig/dynamixel_workbench.pc'
+[0.228s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/lib/python3.10/site-packages'
+[0.228s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/bin'
+[0.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.ps1'
+[0.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv'
+[0.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.sh'
+[0.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.bash'
+[0.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.zsh'
+[0.229s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/colcon-core/packages/dynamixel_workbench)
+[0.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench)
+[0.229s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench' for CMake module files
+[0.229s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench' for CMake config files
+[0.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench', 'cmake_prefix_path')
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.ps1'
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.dsv'
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.sh'
+[0.230s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/bin'
+[0.230s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/lib/pkgconfig/dynamixel_workbench.pc'
+[0.230s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/lib/python3.10/site-packages'
+[0.230s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/bin'
+[0.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.ps1'
+[0.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv'
+[0.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.sh'
+[0.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.bash'
+[0.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.zsh'
+[0.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench/share/colcon-core/packages/dynamixel_workbench)
+[0.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/dynamixel_hardware -- -j20 -l20
+[0.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/dynamixel_hardware
+[0.243s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_hardware)
+[0.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/dynamixel_hardware
+[0.243s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware' for CMake module files
+[0.243s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware' for CMake config files
+[0.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'cmake_prefix_path')
+[0.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.ps1'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.dsv'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.sh'
+[0.244s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib'
+[0.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'ld_library_path_lib')
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.ps1'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.dsv'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.sh'
+[0.244s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/bin'
+[0.244s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib/pkgconfig/dynamixel_hardware.pc'
+[0.245s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib/python3.10/site-packages'
+[0.245s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/bin'
+[0.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.ps1'
+[0.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv'
+[0.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.sh'
+[0.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.bash'
+[0.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.zsh'
+[0.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/colcon-core/packages/dynamixel_hardware)
+[0.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_hardware)
+[0.246s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware' for CMake module files
+[0.246s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware' for CMake config files
+[0.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'cmake_prefix_path')
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.ps1'
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.dsv'
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.sh'
+[0.247s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib'
+[0.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'ld_library_path_lib')
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.ps1'
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.dsv'
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.sh'
+[0.247s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/bin'
+[0.247s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib/pkgconfig/dynamixel_hardware.pc'
+[0.247s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib/python3.10/site-packages'
+[0.247s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/bin'
+[0.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.ps1'
+[0.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv'
+[0.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.sh'
+[0.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.bash'
+[0.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.zsh'
+[0.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/colcon-core/packages/dynamixel_hardware)
+[0.248s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rs/ws/prac_moveit_ws/src/dynamixel_hardware/open_manipulator_x_description' with build type 'ament_cmake'
+[0.249s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rs/ws/prac_moveit_ws/src/dynamixel_hardware/open_manipulator_x_description'
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rs/ws/prac_moveit_ws/src/dynamixel_hardware/pantilt_bot_description' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rs/ws/prac_moveit_ws/src/dynamixel_hardware/pantilt_bot_description'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description -- -j20 -l20
+[0.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/pantilt_bot_description': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/pantilt_bot_description -- -j20 -l20
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description -- -j20 -l20
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/pantilt_bot_description' returned '0': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/pantilt_bot_description -- -j20 -l20
+[0.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/pantilt_bot_description': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/pantilt_bot_description
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs -- -j20 -l20
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs
+[0.285s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_description)
+[0.286s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description' for CMake module files
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description
+[0.289s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description' for CMake config files
+[0.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_description', 'cmake_prefix_path')
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.ps1'
+[0.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.dsv'
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.sh'
+[0.299s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/bin'
+[0.299s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/lib/pkgconfig/open_manipulator_x_description.pc'
+[0.299s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/lib/python3.10/site-packages'
+[0.300s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/bin'
+[0.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.ps1'
+[0.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.dsv'
+[0.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.sh'
+[0.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.bash'
+[0.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.zsh'
+[0.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/colcon-core/packages/open_manipulator_x_description)
+[0.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_description)
+[0.304s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description' for CMake module files
+[0.304s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description' for CMake config files
+[0.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_description', 'cmake_prefix_path')
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.ps1'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.dsv'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.sh'
+[0.304s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/bin'
+[0.304s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/lib/pkgconfig/open_manipulator_x_description.pc'
+[0.304s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/lib/python3.10/site-packages'
+[0.305s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/bin'
+[0.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.ps1'
+[0.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.dsv'
+[0.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.sh'
+[0.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.bash'
+[0.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.zsh'
+[0.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/colcon-core/packages/open_manipulator_x_description)
+[0.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pantilt_bot_description)
+[0.306s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description' for CMake module files
+[0.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/pantilt_bot_description' returned '0': CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description:/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description:/home/rs/ws/prac_moveit_ws/install/moveit_practice:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/pantilt_bot_description
+[0.306s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description' for CMake config files
+[0.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('pantilt_bot_description', 'cmake_prefix_path')
+[0.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/hook/cmake_prefix_path.ps1'
+[0.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/hook/cmake_prefix_path.dsv'
+[0.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/hook/cmake_prefix_path.sh'
+[0.307s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/bin'
+[0.307s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/lib/pkgconfig/pantilt_bot_description.pc'
+[0.307s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/lib/python3.10/site-packages'
+[0.307s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/bin'
+[0.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/package.ps1'
+[0.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/package.dsv'
+[0.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/package.sh'
+[0.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/package.bash'
+[0.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/package.zsh'
+[0.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/colcon-core/packages/pantilt_bot_description)
+[0.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pantilt_bot_description)
+[0.308s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description' for CMake module files
+[0.308s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description' for CMake config files
+[0.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('pantilt_bot_description', 'cmake_prefix_path')
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/hook/cmake_prefix_path.ps1'
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/hook/cmake_prefix_path.dsv'
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/hook/cmake_prefix_path.sh'
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/bin'
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/lib/pkgconfig/pantilt_bot_description.pc'
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/lib/python3.10/site-packages'
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/bin'
+[0.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/package.ps1'
+[0.309s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/package.dsv'
+[0.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/package.sh'
+[0.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/package.bash'
+[0.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/pantilt_bot_description/package.zsh'
+[0.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/pantilt_bot_description/share/colcon-core/packages/pantilt_bot_description)
+[0.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_msgs)
+[0.317s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs' for CMake module files
+[0.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs
+[0.317s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs' for CMake config files
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_msgs', 'cmake_prefix_path')
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.ps1'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.dsv'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.sh'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib'
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_msgs', 'ld_library_path_lib')
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.dsv'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.sh'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/bin'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib/pkgconfig/dynamixel_workbench_msgs.pc'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib/python3.10/site-packages'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/bin'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.dsv'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.sh'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.bash'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.zsh'
+[0.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/colcon-core/packages/dynamixel_workbench_msgs)
+[0.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_msgs)
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs' for CMake module files
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs' for CMake config files
+[0.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_msgs', 'cmake_prefix_path')
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.ps1'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.sh'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib'
+[0.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_msgs', 'ld_library_path_lib')
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.ps1'
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.dsv'
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.sh'
+[0.322s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/bin'
+[0.322s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib/pkgconfig/dynamixel_workbench_msgs.pc'
+[0.322s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/lib/python3.10/site-packages'
+[0.322s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/bin'
+[0.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.ps1'
+[0.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.dsv'
+[0.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.sh'
+[0.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.bash'
+[0.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.zsh'
+[0.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs/share/colcon-core/packages/dynamixel_workbench_msgs)
+[0.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/moveit_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/moveit_practice -- -j20 -l20
+[0.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rs/ws/prac_moveit_ws/build/moveit_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/moveit_practice
+[0.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_practice)
+[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice' for CMake module files
+[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice' for CMake config files
+[0.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_practice', 'cmake_prefix_path')
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/hook/cmake_prefix_path.ps1'
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/hook/cmake_prefix_path.dsv'
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/hook/cmake_prefix_path.sh'
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rs/ws/prac_moveit_ws/build/moveit_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/moveit_practice
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice/bin'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice/lib/pkgconfig/moveit_practice.pc'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice/lib/python3.10/site-packages'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice/bin'
+[0.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/package.ps1'
+[0.374s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/package.dsv'
+[0.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/package.sh'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/package.bash'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/package.zsh'
+[0.375s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/colcon-core/packages/moveit_practice)
+[0.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_practice)
+[0.375s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice' for CMake module files
+[0.375s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice' for CMake config files
+[0.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_practice', 'cmake_prefix_path')
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/hook/cmake_prefix_path.ps1'
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/hook/cmake_prefix_path.dsv'
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/hook/cmake_prefix_path.sh'
+[0.376s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice/bin'
+[0.376s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice/lib/pkgconfig/moveit_practice.pc'
+[0.376s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice/lib/python3.10/site-packages'
+[0.376s] Level 1:colcon.colcon_core.environment:checking '/home/rs/ws/prac_moveit_ws/install/moveit_practice/bin'
+[0.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/package.ps1'
+[0.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/package.dsv'
+[0.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/package.sh'
+[0.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/package.bash'
+[0.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/moveit_practice/package.zsh'
+[0.377s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rs/ws/prac_moveit_ws/install/moveit_practice/share/colcon-core/packages/moveit_practice)
+[0.377s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.377s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.377s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.377s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.380s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.380s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.380s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.380s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.381s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.381s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.382s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rs/ws/prac_moveit_ws/install/local_setup.ps1'
+[0.382s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rs/ws/prac_moveit_ws/install/_local_setup_util_ps1.py'
+[0.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rs/ws/prac_moveit_ws/install/setup.ps1'
+[0.383s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rs/ws/prac_moveit_ws/install/local_setup.sh'
+[0.384s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rs/ws/prac_moveit_ws/install/_local_setup_util_sh.py'
+[0.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rs/ws/prac_moveit_ws/install/setup.sh'
+[0.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rs/ws/prac_moveit_ws/install/local_setup.bash'
+[0.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rs/ws/prac_moveit_ws/install/setup.bash'
+[0.385s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rs/ws/prac_moveit_ws/install/local_setup.zsh'
+[0.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rs/ws/prac_moveit_ws/install/setup.zsh'

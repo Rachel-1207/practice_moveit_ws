@@ -1,0 +1,1 @@
+Invoking command in '/home/rs/ws/prac_moveit_ws/build/moveit_practice': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rs/ws/prac_moveit_ws/src/moveit_practice -DCMAKE_INSTALL_PREFIX=/home/rs/ws/prac_moveit_ws/install/moveit_practice

@@ -1,0 +1,35 @@
+[0.008s] Invoking command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rs/ws/prac_moveit_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.066s] -- The CXX compiler identification is GNU 11.4.0
+[0.069s] -- Detecting C compiler ABI info
+[0.106s] -- Detecting C compiler ABI info - done
+[0.109s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.109s] -- Detecting C compile features
+[0.109s] -- Detecting C compile features - done
+[0.111s] -- Detecting CXX compiler ABI info
+[0.146s] -- Detecting CXX compiler ABI info - done
+[0.150s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.150s] -- Detecting CXX compile features
+[0.150s] -- Detecting CXX compile features - done
+[0.151s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.222s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.281s] -- Configuring incomplete, errors occurred!
+[0.281s] See also "/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox/CMakeFiles/CMakeOutput.log".
+[0.281s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[0.281s]   By not providing "Finddynamixel_sdk.cmake" in CMAKE_MODULE_PATH this
+[0.281s]   project has asked CMake to find a package configuration file provided by
+[0.281s]   "dynamixel_sdk", but CMake did not find one.
+[0.281s] 
+[0.281s]   Could not find a package configuration file provided by "dynamixel_sdk"
+[0.281s]   with any of the following names:
+[0.281s] 
+[0.281s]     dynamixel_sdkConfig.cmake
+[0.281s]     dynamixel_sdk-config.cmake
+[0.281s] 
+[0.281s]   Add the installation prefix of "dynamixel_sdk" to CMAKE_PREFIX_PATH or set
+[0.281s]   "dynamixel_sdk_DIR" to a directory containing one of the above files.  If
+[0.281s]   "dynamixel_sdk" provides a separate development package or SDK, be sure it
+[0.281s]   has been installed.
+[0.281s] 
+[0.281s] [0m
+[0.283s] Invoked command in '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rs/ws/prac_moveit_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox

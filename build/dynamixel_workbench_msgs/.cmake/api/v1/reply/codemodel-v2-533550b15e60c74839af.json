@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a647fe8c750808aa5445.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "dynamixel_workbench_msgs__py",
+					"jsonFile" : "directory-dynamixel_workbench_msgs__py-2edc2ac6085421f531d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs/dynamixel_workbench_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dynamixel_workbench_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dynamixel_workbench_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dynamixel_workbench_msgs_egg-06ab9be2ff20e650448d.json",
+					"name" : "ament_cmake_python_build_dynamixel_workbench_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dynamixel_workbench_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dynamixel_workbench_msgs-f8a8b5ce150bdffcb383.json",
+					"name" : "ament_cmake_python_copy_dynamixel_workbench_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs-e55030345d24a1ecc6df.json",
+					"name" : "dynamixel_workbench_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__cpp-a558d8e7fa05165cbb31.json",
+					"name" : "dynamixel_workbench_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dynamixel_workbench_msgs__py::@196a1796d7f781fe3c6e",
+					"jsonFile" : "target-dynamixel_workbench_msgs__py-250a99a4064ce5e412b0.json",
+					"name" : "dynamixel_workbench_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_generator_c-669beb41c45afae1024e.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_generator_py-353bdb3746627a54a601.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_c-2eaf27fa4f8623e46500.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_c__pyext-5f835d2c4d4345a2503b.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_cpp-c70531d7f8c516da3d91.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c-f78ea5850b89d159aa1a.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c__pyext-3f4ac85e460d37d40931.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp-a1da362158a631d1c465.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_introspection_c-528de189b22e74c87ca1.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_introspection_c__pyext-8fcb0612d369d292da3a.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp-1de24f600f2296d9360f.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs_uninstall-849d39258e809e1ece52.json",
+					"name" : "dynamixel_workbench_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-496f732a38d6314b4073.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs",
+		"source" : "/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

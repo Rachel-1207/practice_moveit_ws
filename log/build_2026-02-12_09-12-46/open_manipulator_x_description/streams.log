@@ -1,0 +1,85 @@
+[0.007s] Invoking command in '/home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description': AMENT_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/rs/ws/prac_moveit_ws/src/dynamixel_hardware/open_manipulator_x_description -DCMAKE_INSTALL_PREFIX=/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.068s] -- The CXX compiler identification is GNU 11.4.0
+[0.073s] -- Detecting C compiler ABI info
+[0.113s] -- Detecting C compiler ABI info - done
+[0.113s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.113s] -- Detecting C compile features
+[0.114s] -- Detecting C compile features - done
+[0.115s] -- Detecting CXX compiler ABI info
+[0.155s] -- Detecting CXX compiler ABI info - done
+[0.155s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.155s] -- Detecting CXX compile features
+[0.155s] -- Detecting CXX compile features - done
+[0.157s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.229s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.282s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.300s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.303s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.310s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.352s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.352s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.353s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.374s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.376s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.428s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.441s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.465s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.471s] -- Looking for pthread.h
+[0.507s] -- Looking for pthread.h - found
+[0.507s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.543s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.543s] -- Found Threads: TRUE  
+[0.634s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.637s] -- Found rviz2: 11.2.25 (/opt/ros/humble/share/rviz2/cmake)
+[0.638s] -- Found ros2_control: 2.53.0 (/opt/ros/humble/share/ros2_control/cmake)
+[0.640s] -- Found ros2_controllers: 2.52.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[0.641s] -- Found dynamixel_hardware: 0.0.0 (/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake)
+[0.708s] -- Configuring done
+[0.714s] -- Generating done
+[0.714s] -- Build files have been written to: /home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description
+[0.718s] Invoked command in '/home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description' returned '0': AMENT_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/rs/ws/prac_moveit_ws/src/dynamixel_hardware/open_manipulator_x_description -DCMAKE_INSTALL_PREFIX=/home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description
+[0.718s] Invoking command in '/home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description': AMENT_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description -- -j20 -l20
+[0.742s] Invoked command in '/home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description' returned '0': AMENT_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description -- -j20 -l20
+[0.742s] Invoking command in '/home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description': AMENT_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description
+[0.745s] -- Install configuration: ""
+[0.745s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes
+[0.745s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link2.stl
+[0.746s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link4.stl
+[0.746s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link5.stl
+[0.746s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link_grip_l.stl
+[0.747s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link3.stl
+[0.747s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link_grip_r.stl
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link1.stl
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.ros2_control_gazebo.xacro
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.ros2_control.xacro
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x_gazebo.urdf.xacro
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.xacro
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.material.xacro
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.urdf.xacro
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/controllers
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/controllers/controllers.yaml
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/launch
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/launch/display.launch.py
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/launch/open_manipulator_x.launch.py
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/launch/open_manipulator_x.rviz
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/launch/open_manipulator_x_gazebo.launch.py
+[0.748s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_description
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_description
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/ament_prefix_path.sh
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/ament_prefix_path.dsv
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/path.sh
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/path.dsv
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.bash
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.sh
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.zsh
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.dsv
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.dsv
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/ament_index/resource_index/packages/open_manipulator_x_description
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/cmake/open_manipulator_x_descriptionConfig.cmake
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/cmake/open_manipulator_x_descriptionConfig-version.cmake
+[0.752s] -- Installing: /home/rs/ws/prac_moveit_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.xml
+[0.752s] Invoked command in '/home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description' returned '0': AMENT_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware/lib:/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rs/ws/prac_moveit_ws/build/open_manipulator_x_description

@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000250] (dynamixel_workbench_msgs) JobQueued: {'identifier': 'dynamixel_workbench_msgs', 'dependencies': OrderedDict()}
+[0.000265] (dynamixel_workbench_toolbox) JobQueued: {'identifier': 'dynamixel_workbench_toolbox', 'dependencies': OrderedDict()}
+[0.000274] (moveit_practice) JobQueued: {'identifier': 'moveit_practice', 'dependencies': OrderedDict()}
+[0.000280] (dynamixel_hardware) JobQueued: {'identifier': 'dynamixel_hardware', 'dependencies': OrderedDict([('dynamixel_workbench_toolbox', '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox')])}
+[0.000288] (dynamixel_workbench) JobQueued: {'identifier': 'dynamixel_workbench', 'dependencies': OrderedDict([('dynamixel_workbench_toolbox', '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox')])}
+[0.000295] (open_manipulator_x_description) JobQueued: {'identifier': 'open_manipulator_x_description', 'dependencies': OrderedDict([('dynamixel_workbench_toolbox', '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox'), ('dynamixel_hardware', '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware')])}
+[0.000302] (pantilt_bot_description) JobQueued: {'identifier': 'pantilt_bot_description', 'dependencies': OrderedDict([('dynamixel_workbench_toolbox', '/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox'), ('dynamixel_hardware', '/home/rs/ws/prac_moveit_ws/install/dynamixel_hardware')])}
+[0.000685] (dynamixel_workbench_toolbox) JobStarted: {'identifier': 'dynamixel_workbench_toolbox'}
+[0.003435] (dynamixel_workbench_msgs) JobStarted: {'identifier': 'dynamixel_workbench_msgs'}
+[0.004992] (moveit_practice) JobStarted: {'identifier': 'moveit_practice'}
+[0.007083] (dynamixel_workbench_toolbox) JobProgress: {'identifier': 'dynamixel_workbench_toolbox', 'progress': 'cmake'}
+[0.007635] (dynamixel_workbench_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox', '-DCMAKE_INSTALL_PREFIX=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_toolbox'], 'cwd': '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox', 'env': OrderedDict([('HOSTNAME', '932a86648708'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rs'), ('OLDPWD', '/home/rs/ws/prac_moveit_ws/src/moveit_practice/launch'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('XAUTHORITY', '/home/rs/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('TERMINATOR_UUID', 'urn:uuid:4723db9d-36ba-4afb-8812-d7ee71c80cff'), ('PWD', '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.008765] (dynamixel_workbench_msgs) JobProgress: {'identifier': 'dynamixel_workbench_msgs', 'progress': 'cmake'}
+[0.008966] (dynamixel_workbench_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/rs/ws/prac_moveit_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs', '-DCMAKE_INSTALL_PREFIX=/home/rs/ws/prac_moveit_ws/install/dynamixel_workbench_msgs'], 'cwd': '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs', 'env': OrderedDict([('HOSTNAME', '932a86648708'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rs'), ('OLDPWD', '/home/rs/ws/prac_moveit_ws/src/moveit_practice/launch'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('XAUTHORITY', '/home/rs/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('TERMINATOR_UUID', 'urn:uuid:4723db9d-36ba-4afb-8812-d7ee71c80cff'), ('PWD', '/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.013519] (moveit_practice) JobProgress: {'identifier': 'moveit_practice', 'progress': 'cmake'}
+[0.014198] (moveit_practice) Command: {'cmd': ['/usr/bin/cmake', '/home/rs/ws/prac_moveit_ws/src/moveit_practice', '-DCMAKE_INSTALL_PREFIX=/home/rs/ws/prac_moveit_ws/install/moveit_practice'], 'cwd': '/home/rs/ws/prac_moveit_ws/build/moveit_practice', 'env': OrderedDict([('HOSTNAME', '932a86648708'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rs'), ('OLDPWD', '/home/rs/ws/prac_moveit_ws/src/moveit_practice/launch'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('XAUTHORITY', '/home/rs/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('TERMINATOR_UUID', 'urn:uuid:4723db9d-36ba-4afb-8812-d7ee71c80cff'), ('PWD', '/home/rs/ws/prac_moveit_ws/build/moveit_practice'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.040098] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.040330] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.041521] (moveit_practice) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.066301] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.066843] (moveit_practice) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.069539] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.069719] (moveit_practice) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.069749] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.072614] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.100035] (-) TimerEvent: {}
+[0.105252] (moveit_practice) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.106408] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.106468] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.107457] (moveit_practice) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.107492] (moveit_practice) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.107516] (moveit_practice) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.109249] (moveit_practice) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.109289] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.109312] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.109331] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.109361] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.109383] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.109400] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.110402] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.111785] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.147002] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.147125] (moveit_practice) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.148415] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.149623] (moveit_practice) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.150165] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.150227] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.150253] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.150272] (moveit_practice) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.150290] (moveit_practice) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.151663] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.152003] (moveit_practice) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.152409] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.152469] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.152495] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.153103] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200204] (-) TimerEvent: {}
+[0.217234] (moveit_practice) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.222803] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.227025] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.262302] (moveit_practice) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.279590] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.279690] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.281665] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.281743] (dynamixel_workbench_toolbox) StdoutLine: {'line': b'See also "/home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_toolbox/CMakeFiles/CMakeOutput.log".\n'}
+[0.281898] (dynamixel_workbench_toolbox) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:25 (find_package):\n'}
+[0.281937] (dynamixel_workbench_toolbox) StderrLine: {'line': b'  By not providing "Finddynamixel_sdk.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.281958] (dynamixel_workbench_toolbox) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.281976] (dynamixel_workbench_toolbox) StderrLine: {'line': b'  "dynamixel_sdk", but CMake did not find one.\n'}
+[0.281993] (dynamixel_workbench_toolbox) StderrLine: {'line': b'\n'}
+[0.282010] (dynamixel_workbench_toolbox) StderrLine: {'line': b'  Could not find a package configuration file provided by "dynamixel_sdk"\n'}
+[0.282028] (dynamixel_workbench_toolbox) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.282044] (dynamixel_workbench_toolbox) StderrLine: {'line': b'\n'}
+[0.282059] (dynamixel_workbench_toolbox) StderrLine: {'line': b'    dynamixel_sdkConfig.cmake\n'}
+[0.282075] (dynamixel_workbench_toolbox) StderrLine: {'line': b'    dynamixel_sdk-config.cmake\n'}
+[0.282090] (dynamixel_workbench_toolbox) StderrLine: {'line': b'\n'}
+[0.282106] (dynamixel_workbench_toolbox) StderrLine: {'line': b'  Add the installation prefix of "dynamixel_sdk" to CMAKE_PREFIX_PATH or set\n'}
+[0.282122] (dynamixel_workbench_toolbox) StderrLine: {'line': b'  "dynamixel_sdk_DIR" to a directory containing one of the above files.  If\n'}
+[0.282137] (dynamixel_workbench_toolbox) StderrLine: {'line': b'  "dynamixel_sdk" provides a separate development package or SDK, be sure it\n'}
+[0.282153] (dynamixel_workbench_toolbox) StderrLine: {'line': b'  has been installed.\n'}
+[0.282168] (dynamixel_workbench_toolbox) StderrLine: {'line': b'\n'}
+[0.282183] (dynamixel_workbench_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[0.282717] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.283765] (dynamixel_workbench_toolbox) CommandEnded: {'returncode': 1}
+[0.289865] (moveit_practice) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.293286] (moveit_practice) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.298711] (moveit_practice) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.299526] (dynamixel_workbench_toolbox) JobEnded: {'identifier': 'dynamixel_workbench_toolbox', 'rc': 1}
+[0.300245] (-) TimerEvent: {}
+[0.302685] (moveit_practice) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.303487] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.309606] (moveit_practice) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.318876] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.329696] (moveit_practice) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.330403] (moveit_practice) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.383995] (moveit_practice) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.395643] (moveit_practice) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.400392] (-) TimerEvent: {}
+[0.417820] (moveit_practice) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.420704] (moveit_practice) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.463945] (moveit_practice) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.464069] (moveit_practice) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.500594] (-) TimerEvent: {}
+[0.508904] (moveit_practice) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.509448] (moveit_practice) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.510921] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[0.512197] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[0.514568] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[0.515809] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.533352] (moveit_practice) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.569067] (moveit_practice) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.569237] (moveit_practice) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.569428] (moveit_practice) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.570085] (moveit_practice) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.570590] (moveit_practice) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.572503] (moveit_practice) StdoutLine: {'line': b'-- Generating done\n'}
+[0.573335] (moveit_practice) StdoutLine: {'line': b'-- Build files have been written to: /home/rs/ws/prac_moveit_ws/build/moveit_practice\n'}
+[0.577743] (moveit_practice) JobEnded: {'identifier': 'moveit_practice', 'rc': 'SIGINT'}
+[0.600778] (-) TimerEvent: {}
+[0.623355] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700858] (-) TimerEvent: {}
+[0.759563] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.770129] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.771001] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.781180] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.781240] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.781265] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.781286] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.790802] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.800925] (-) TimerEvent: {}
+[0.814017] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.14 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[0.815070] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.14 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[0.817951] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.843427] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[0.848845] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/rs/ws/prac_moveit_ws/build/dynamixel_workbench_msgs\n'}
+[0.852503] (dynamixel_workbench_msgs) JobEnded: {'identifier': 'dynamixel_workbench_msgs', 'rc': 'SIGINT'}
+[0.862877] (dynamixel_hardware) JobSkipped: {'identifier': 'dynamixel_hardware'}
+[0.863080] (dynamixel_workbench) JobSkipped: {'identifier': 'dynamixel_workbench'}
+[0.863128] (open_manipulator_x_description) JobSkipped: {'identifier': 'open_manipulator_x_description'}
+[0.863136] (pantilt_bot_description) JobSkipped: {'identifier': 'pantilt_bot_description'}
+[0.863142] (-) EventReactorShutdown: {}

@@ -1,0 +1,9 @@
+/home/rs/ws/prac_moveit_ws/build/small_arm_moveit_config/CMakeFiles/uninstall.dir
+/home/rs/ws/prac_moveit_ws/build/small_arm_moveit_config/CMakeFiles/small_arm_moveit_config_uninstall.dir
+/home/rs/ws/prac_moveit_ws/build/small_arm_moveit_config/CMakeFiles/test.dir
+/home/rs/ws/prac_moveit_ws/build/small_arm_moveit_config/CMakeFiles/edit_cache.dir
+/home/rs/ws/prac_moveit_ws/build/small_arm_moveit_config/CMakeFiles/rebuild_cache.dir
+/home/rs/ws/prac_moveit_ws/build/small_arm_moveit_config/CMakeFiles/list_install_components.dir
+/home/rs/ws/prac_moveit_ws/build/small_arm_moveit_config/CMakeFiles/install.dir
+/home/rs/ws/prac_moveit_ws/build/small_arm_moveit_config/CMakeFiles/install/local.dir
+/home/rs/ws/prac_moveit_ws/build/small_arm_moveit_config/CMakeFiles/install/strip.dir
